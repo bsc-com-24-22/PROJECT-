@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Tracking from './Pages/Tracking/Tracking';
 import './App.css';
 
 function App() {

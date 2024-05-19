@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header/Header';
+import Footer from '../../pages/Footer/Footer';
+import Header from '../../pages/Header/Header';
 import MapComponent from './Map';
 import NavBbar from './navBbar'
  

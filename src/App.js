@@ -11,13 +11,7 @@ function App() {
     <div  className = "flex flex-col w-full ">
       <Header />
       <NavBbar />
-      
-
       <AboutusPage/>
-
-      
-      
-  
     </div>
     <Footer />
     </div>

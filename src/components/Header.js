@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../Assets/1.png'
+import logo from '../Assets/1.png'
 import { TbHelpSquareRounded } from "react-icons/tb";
 
 export default function Header () {

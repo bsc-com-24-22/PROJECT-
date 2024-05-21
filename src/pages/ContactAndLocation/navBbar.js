@@ -14,20 +14,8 @@ export default function NavBbar () {
       <div>
         <p className="p-4 pt-0 h-6 flex-row font-bold">CONTACT US</p>
       </div>
-      <div grid grid-cols-2>
-        <div className="cols-span-1" color='red'>
-
-        </div>
-        <div className="cols-span-1">
-            <p></p>
-            <p></p>
-
-        </div>
-
-      </div>
-
-
+     
       </div>
        
-    )
+    ) 
 }

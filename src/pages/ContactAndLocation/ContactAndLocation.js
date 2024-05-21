@@ -1,8 +1,9 @@
 import React from 'react'
-import Footer from '../../pages/Footer/Footer';
-import Header from '../../pages/Header/Header';
+import Footer from '../../Components/Footer/Footer';
+import Header from '../../Components/Header/Header';
 import MapComponent from './Map';
 import NavBbar from './navBbar'
+import MainContent from './MainContent';
  
 
 export default function LocationAndContact () {
@@ -11,8 +12,9 @@ export default function LocationAndContact () {
     
     <Header />
     <NavBbar />
+    <MainContent />
     <main className="flex-grow">
-      <div className="h-full">
+      <div className="h-">
         <MapComponent />
       </div>
     </main>

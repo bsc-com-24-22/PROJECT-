@@ -1,12 +1,12 @@
-import Tracking from './Pages/Tracking/Tracking';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-     <Tracking/>
+import react from "react";
+import Signin from "./Pages/Signin";
+function App(){
+ 
+ return(
+    <div>
+       <Signin/> 
     </div>
-  );
-}
+ );
 
-export default App;
+}
+ export default App;

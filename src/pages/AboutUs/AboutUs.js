@@ -1,19 +1,20 @@
 import React from 'react';
-import img1 from '../Assets/img1.jpg'
-import img2 from '../Assets/img2.jpg'
-import img3 from '../Assets/img3.jpg'
-import img6 from '../Assets/img6.jpg.png'
-import img8 from '../Assets/img8.jpg'
-import Footer from '../../components/Footer/Footer';
+import img1 from '../../Assets/img1.jpg'
+import img2 from '../../Assets/img2.jpg'
+import img3 from '../../Assets/img3.jpg'
+import img6 from '../../Assets/img6.jpg.png'
+import img8 from '../../Assets/img8.jpg'
+
 import NavBbar from '../../Components/navBbar';
 import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer';
 
 export default function AboutusPage() {
 
     return (
         <div className='container flex flex-col gap-5 bg-black-950 max-h-fit pl-5'>
-            <div className='flex'>
             <Header />
+    <div className='flex-grow'>
             <NavBbar />
 
                 <div>

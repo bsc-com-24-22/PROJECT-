@@ -10,7 +10,7 @@ function App() {
       <div  className = "flex flex-col w-full ">
     <BrowserRouter>
     <Routes>
-    <Route path='/' elements={<Aboutus />} />
+    <Route path='/' element={<Aboutus />} />
 
     </Routes>
     

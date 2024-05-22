@@ -14,7 +14,8 @@ export default function AboutusPage() {
     return (
         <div className='container flex flex-col gap-5 bg-black-950 max-h-fit pl-5'>
             <Header />
-    <div className='flex-grow'>
+            
+    <div className='w-full h-screenflex justify-items-center'>
             <NavBbar />
 
                 <div>

@@ -4,13 +4,17 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import "./index.css";
 import Aboutus from './pages/AboutUs/AboutUs';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LocationAndContact from './pages/ContactAndLocation/ContactAndLocation';
+
+
 
 
 function App() {
   return (
     <div className="App">
      <Tracking/>
-    </div>
+   
     <div className='flex flex-col'>
       <div  className = "flex flex-col w-full ">
     <BrowserRouter>
@@ -20,6 +24,16 @@ function App() {
     </Routes>
     
     </BrowserRouter>
+    <div className="flex flex-col min-h-screen">
+      
+      <BrowserRouter>
+        <Routes>
+          <Route path ='/' element= {<LocationAndContact />} />
+        </Routes>
+      </BrowserRouter>
+      
+    </div>
+        </div>
         </div>
         </div>
   );

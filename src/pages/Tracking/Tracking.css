@@ -1,0 +1,77 @@
+h1{
+    color: #78530a;
+    font-size: 20px;
+    text-align: start;
+    font-weight: 700;
+}
+.Logo{
+  font-size: 14px;
+
+}
+.flex{
+    color: rgb(26, 112, 151);
+    font-weight: 720;
+    text-align: center;
+    font-size:x-large;
+
+ }
+ .text{
+  color: black;
+
+  float:center;
+  font-size: large;
+ }
+ .trackingText{
+ 
+   color: rgb(60, 33, 86);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   letter-spacing: 1px;
+   font-style: italic;
+   font-weight: 800;
+ }
+.srch{
+ font-family: "Times New Roman";
+ border-radius: 10px;   
+ height: 29px;
+ font-size: 16px;
+ text-decoration: none;
+} 
+.btn{
+    width: 60px;
+    background: #ff7200;
+    height: 29px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul{
+
+    padding: 0;
+    list-style: none;
+    display:inline-flex;
+   
+}
+ul li{
+
+    text-align:left;
+    margin-left: 5rem;
+   
+}
+ul li:hover{
+    color: #ff7200;
+    cursor: pointer;
+}
+.footer {
+    background-color: #78530a;
+    color: #ffff;
+    text-align: center;
+    font-size: smaller;
+    padding: 20px;
+    position:absolute;
+    bottom: 0;
+    width: 96%;
+    border-radius: 10px;
+  }
+.footer p{
+    font-style: italic;
+}

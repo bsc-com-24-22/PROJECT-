@@ -6,7 +6,7 @@ import "./index.css";
 import Aboutus from './pages/AboutUs/AboutUs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LocationAndContact from './pages/ContactAndLocation/ContactAndLocation';
-
+import Signin from "./Pages/Signin";
 
 
 
@@ -31,6 +31,9 @@ function App() {
           <Route path ='/' element= {<LocationAndContact />} />
         </Routes>
       </BrowserRouter>
+      <div>
+       <Signin/> 
+    </div>
       
     </div>
         </div>
@@ -39,7 +42,5 @@ function App() {
   );
 }
 
-
-
-
 export default App;
+

@@ -14,7 +14,7 @@ export default function LocationAndContact () {
     <NavBbar />
     <MainContent />
     <main className="flex-grow">
-      <div className="h-">
+      <div>
         <MapComponent />
       </div>
     </main>

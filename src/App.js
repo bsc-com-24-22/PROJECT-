@@ -7,8 +7,7 @@ import Aboutus from './pages/AboutUs/AboutUs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LocationAndContact from './pages/ContactAndLocation/ContactAndLocation';
 import Signin from "./Pages/Signin";
-
-
+import SignUp from './pages/SignUpPage/component/SignUp';
 
 function App() {
   return (
@@ -33,6 +32,7 @@ function App() {
       </BrowserRouter>
       <div>
        <Signin/> 
+      <SignUp />
     </div>
       
     </div>

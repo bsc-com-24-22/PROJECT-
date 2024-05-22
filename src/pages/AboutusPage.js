@@ -1,22 +1,15 @@
 import React from 'react';
-import img1 from '../../Assets/img1.jpg'
-import img2 from '../../Assets/img2.jpg'
-import img3 from '../../Assets/img3.jpg'
-import img6 from '../../Assets/img6.jpg.png'
-import img8 from '../../Assets/img8.jpg'
-
-import NavBbar from '../../Components/navBbar';
-import Header from '../../Components/Header/Header';
-import Footer from '../../Components/Footer';
+import img1 from '../Assets/img1.jpg'
+import img2 from '../Assets/img2.jpg'
+import img3 from '../Assets/img3.jpg'
+import img6 from '../Assets/img6.jpg.png'
+import img8 from '../Assets/img8.jpg'
 
 export default function AboutusPage() {
 
     return (
         <div className='container flex flex-col gap-5 bg-black-950 max-h-fit pl-5'>
-            <Header />
-            
-    <div className='w-full h-screenflex justify-items-center'>
-            <NavBbar />
+            <div className='flex'>
 
                 <div>
                     <h1 className='font-extrabold sm:text-5xl?'>ABOUT US</h1>
@@ -37,8 +30,9 @@ export default function AboutusPage() {
             <h3 className='flex justify-center font-extrabold sm:text-5xl?'>CUSTOMER FEEDBACK</h3>
             <div className='flex  justify-center mb-6'>
                 <img src={img8} className=' w-98 h-48 z-0'></img>
+
             </div>
-            <Footer />
+
         </div>
 
     )

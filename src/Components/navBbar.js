@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa";
 import { IoHomeOutline } from "react-icons/io5";
 
 
-function NavBbar () {
+export default function NavBbar () {
     return(
         <div>
         <div className=" text-black p-4 pt-0 !flex flex-row items-center justify-start">

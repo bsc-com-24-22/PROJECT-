@@ -1,46 +1,31 @@
-import Tracking from './Pages/Tracking/Tracking';
-import './App.css';
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import "./index.css";
-import Aboutus from './pages/AboutUs/AboutUs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import LocationAndContact from './pages/ContactAndLocation/ContactAndLocation';
-import Signin from "./Pages/Signin";
-import SignUp from './pages/SignUpPage/component/SignUp';
-
+import HomePage from './pages/HomePage/Components/HomePage/HomePage';
+import AboutUs from './pages/AboutUs/AboutUs';
+import Tracking from './Tracking/Tracking';
+import Tracking_Details from './Tracking/Tracking_Details';
+import SignUpPage from './pages/SignUpPage/components/SignUp';
+import ContactAndLocation from  "./pages/ContactAndLocation/ContactAndLocation";
+import SignInPage from './pages/Sign.In.LogInPage/SignIn'
+ 
 function App() {
   return (
     <div className="App">
-     <Tracking/>
-   
-    <div className='flex flex-col'>
-      <div  className = "flex flex-col w-full ">
-    <BrowserRouter>
-    <Routes>
-    <Route path='/' element={<Aboutus />} />
-
-    </Routes>
-    
-    </BrowserRouter>
-    <div className="flex flex-col min-h-screen">
-      
-      <BrowserRouter>
-        <Routes>
-          <Route path ='/' element= {<LocationAndContact />} />
-        </Routes>
-      </BrowserRouter>
-      <div>
-       <Signin/> 
-      <SignUp />
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/ContactAndLocation" element={<ContactAndLocation />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Tracking" element={<Tracking />} />
+        <Route path="/Sign.In.LogInPage" element={<SignInPage />} />
+        <Route path="/SignUpPage" element={<SignUpPage />} />
+        <Route path="/Tracking_Details" element={<Tracking_Details />} />
+      </Routes>
+     </BrowserRouter>   
     </div>
-      
-    </div>
-        </div>
-        </div>
-        </div>
   );
 }
-
 export default App;
 

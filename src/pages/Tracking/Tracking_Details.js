@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBox from "./SearchBox";
+import SearchBox from "..Tracking/SearchBox";
 import { FaArrowRight } from "react-icons/fa";
 
 

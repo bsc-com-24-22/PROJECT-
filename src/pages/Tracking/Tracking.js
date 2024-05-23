@@ -14,7 +14,7 @@ import Footer from "../../Components/Footer/Footer";
       <div className='font-bold'>Enter your Tracking Reference:</div>
 
       <SearchBox />
-      <Footer />
+      <Footer className="flex-grow-0" />
     </div>
   );
 }

@@ -16,10 +16,11 @@ export default function Header() {
                 <nav>
                     <ul className="flex space-x-4 text-black">
                         <li><NavLink to="/" href="#" className="hover:text-red-900">Home</NavLink></li>
-                        <li><NavLink to="/Services" className="hover:text-red-900">Services</NavLink></li>
+                        <li><NavLink to="/ServiceWeb" className="hover:text-red-900">Services</NavLink></li>
                         <li><NavLink to="/Tracking" className="hover:text-red-900">Tracking</NavLink></li>
                         <li><NavLink to="/AboutUs" className="hover:text-red-900">About</NavLink></li>
                         <li><NavLink to="/ContactAndLocation" className="hover:text-red-900">Contact</NavLink></li>
+                        <li><NavLink to="/Sign.In.LogInPage" className="hover:text-red-900">Sign In</NavLink></li>
                     </ul>
                 </nav>
             </div>

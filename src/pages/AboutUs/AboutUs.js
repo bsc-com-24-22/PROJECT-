@@ -4,19 +4,20 @@ import img2 from '../../Assets/img2.jpg'
 import img3 from '../../Assets/img3.jpg'
 import img6 from '../../Assets/img6.jpg.png'
 import img8 from '../../Assets/img8.jpg'
-
+import Footer from './Footer';
 import NavBbar from '../../Components/navBbar';
-import Header from '../../Components/Header/Header';
-import Footer from '../../Components/Footer';
+import Header from './Header'
+
+
 
 export default function AboutusPage() {
 
     return (
-        <div className='container flex flex-col gap-5 bg-black-950 max-h-fit pl-5'>
-            <Header />
-            
-    <div className='w-full h-screenflex justify-items-center'>
-            <NavBbar />
+        <div className='className = "flex flex-col w-full'>
+             <Header />
+             <NavBbar />
+             <div className='w-full flex flex-col gap-5 bg-black-950 max-h-fit pl-5'>
+            <div className='flex'>
 
                 <div>
                     <h1 className='font-extrabold sm:text-5xl?'>ABOUT US</h1>
@@ -24,22 +25,23 @@ export default function AboutusPage() {
                     <p className=" font-sans  font-bold first-letter:only: sm:text-preety">Established by seven innovative students From unima</p>
                     <p className='font-sans  font-bold first-letter:only: sm:text-preety'>From unima we do express deriveries</p>
                 </div>
-                <img src={img6} className='  w-z h-96 '></img>
-            </div>
+                <img src={img6} alt=" " className='  w-z h-96 '></img>
+            </div> 
 
             <h2 className='flex justify-center font-extrabold sm:text-5xl?'>MEET OUR TEAM</h2>
-            <div className='flex gap-2 w-screen justify-start '>
-                <img src={img1} className=' w-88 h-48'></img>
-                <img src={img2} className=' w-88 h-48'></img>
-                <img src={img3} className=' w-88 h-48'></img>
+            <div className='flex gap-1 w-screen justify-centre '>
+                <img src={img1}  alt= " " className=' w-88 h-48'></img>
+                <img src={img2}  alt=' ' className=' w-88 h-48'></img>
+                <img src={img3}  alt=' ' className=' w-88 h-48'></img>
 
             </div>
             <h3 className='flex justify-center font-extrabold sm:text-5xl?'>CUSTOMER FEEDBACK</h3>
             <div className='flex  justify-center mb-6'>
-                <img src={img8} className=' w-98 h-48 z-0'></img>
+                <img src={img8} alt=' ' className=' w-98 h-48 z-0'></img>
+
             </div>
             <Footer />
-        </div>
-
-    )
-}
+            </div>
+            </div>
+     )         
+};

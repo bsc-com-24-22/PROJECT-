@@ -8,7 +8,7 @@ import Tracking_Details from './pages/Tracking/Tracking_Details';
 import SignUpPage from './pages/SignUpPage/component/SignUp';
 import ContactAndLocation from  "./pages/ContactAndLocation/ContactAndLocation";
 import SignInPage from './pages/Sign.In.LogInPage/SignIn'
-import Services from './pages/Services/Services'
+import ServicesWeb from './pages/Services/ServicesWeb';
  
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactAndLocation" element={<ContactAndLocation />} />
-        <Route path="/Services" element={<Services />} />
+        <Route path="/ServiceWeb" element={<ServicesWeb />} />
         <Route path="/Tracking" element={<Tracking />} />
         <Route path="/Sign.In.LogInPage" element={<SignInPage />} />
         <Route path="/SignUpPage" element={<SignUpPage />} />

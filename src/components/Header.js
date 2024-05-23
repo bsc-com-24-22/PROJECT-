@@ -8,7 +8,7 @@ export default function Header () {
         <header>
             <div className="flex justify-between" >
             <img src={logo} alt="pali logo" className="w-12 h-12 justify-start ml-2"/>
-            <div className="p-2 pt-1"><span><TbHelpSquareRounded className=""/></span></div>
+            <div className="p-2 pt-1"><span><TbHelpSquareRounded className="h-12 w-12"/></span></div>
             </div>
         </header>
         </div>

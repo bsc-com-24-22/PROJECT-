@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const SearchBox = () => {
   return (
@@ -8,11 +9,10 @@ const SearchBox = () => {
         type="search" 
         placeholder="e.g. P2G12345678" 
       />
-      <button 
-        className="hover:bg-lime-700 bg-red-400 text-white rounded-3xl px-4 py-2"
-              >
-        Enter
-      </button>
+     <NavLink to="/Tracking_Details"> <button 
+        className="hover:bg-lime-700 bg-red-400 text-white rounded-3xl px-4 py-2">
+          Enter
+      </button></NavLink>
     </div>
   );
 };

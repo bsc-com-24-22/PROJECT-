@@ -1,11 +1,12 @@
 import React from "react";
-import Footer from "../../Components/Footer";
-import icon from "./icon.jpg";
-export default function HomePage() {
+import {NavLink} from 'react-router-dom'; 
+import Header from "../../Components/Header";
 
-  return (
-    
+
+export default function HomePage() {
+  return (    
       <div>
+      <Header />
         <div >
           <h2 class="">Your Packages Will Be</h2>
         </div>
@@ -43,8 +44,8 @@ export default function HomePage() {
 
         <footer className="footer bg-amber-900 text-white py-4 w-full fixed bottom-0 rounded-tl-[15px] rounded-tr-[15px]">
         <ul className="flex justify-center space-x-10 mb-5">
-          <li className="hover:text-red-500 cursor-pointer">About Us</li>
-          <li className="hover:text-red-500 cursor-pointer">Contact Us</li>
+          <li className="hover:text-red-500 cursor-pointer"><NavLink to="/AboutUs">About Us</NavLink></li>
+          <li className="hover:text-red-500 cursor-pointer"><NavLink to="/ContactAndLocation">Contact Us</NavLink></li>
         </ul>
         <p className="text-center">Copyright © 2024. All rights reserved.</p>
       </footer>

@@ -1,6 +1,5 @@
     import React from "react";
-    import './Signin.css';
-    import {Router} from 'react-router-dom'; 
+    import {NavLink} from 'react-router-dom';
 
     export default function Signin() {
         const handleSubmit = (event) => {
@@ -19,7 +18,7 @@
                     <div className=" flex items-center justify-center">
                     <div className=" border rounded-full w-[200px] h-[200px] border-black"></div>
                     </div>
-                    <h2 style={{ marginBottom: '20px', textAlign: 'left' }} className=" font-bold">Sign In</h2>
+                    <h2 style={{ marginBottom: '20px', textAlign: 'left' }} className=" font-bold"><NavLink to="/">Sign In</NavLink></h2>
                     <div className="input-group" style={{ marginBottom: '15px' }}>
                         <label type="email" style={{ display: 'block', marginBottom: '5px' }}>Email</label>
                         <input className=" bg-gray-200" type="text" id="email" name="Email" placeholder="John Doe" style={{ width: '100%', padding: '10px', border: '1px solid #ccc', borderRadius: '5px' }} required />
@@ -32,7 +31,7 @@
                 </form>
                 <div className=" flex justify-between">
                     <button style= { {textAlign: 'left'}} className=" text-black ">Forgot password</button>
-                    < button style= { {textAlign: 'right'}} className=" text-blue-700 hover:bg-red-300 ">Sign Up</button>
+                    < button style= { {textAlign: 'right'}} className=" text-blue-700 hover:bg-red-300 "><NavLink to="/SignUpPage">Sign Up</NavLink></button>
                 </div>
             </div>
 

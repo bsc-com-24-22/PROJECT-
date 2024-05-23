@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 
 const Footer = () => {
@@ -7,11 +8,11 @@ const Footer = () => {
     <div className="container mx-auto px-2">
       <div className="flex justify-between">
         <div>
-          <h2 className="text-lg font-semibold mb-2">About Us</h2>
+          <h2 className="text-lg font-semibold mb-2"><NavLink to="/AboutUs">About Us</NavLink></h2>
           <p className="text-sm">Learn more about our company and values.</p>
         </div>
         <div>
-          <h2 className="text-lg font-semibold mb-2">Contact Us</h2>
+          <h2 className="text-lg font-semibold mb-2"><NavLink to="/ContactAndLocation">Contact Us</NavLink></h2>
           <p className="text-sm">Get in touch with us for more information.</p>
         </div>
       </div>

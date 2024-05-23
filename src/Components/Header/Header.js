@@ -17,6 +17,7 @@ export default function Header () {
             <img src={logo} alt="pali logo" className="w-16 h-16 justify-start ml-2"/>
             <div className="p-2 pt-1"><span><TbHelpSquareRounded className="h-14 w-14"/></span></div>
             </div>
+            </div>
         </header>
         </div>
     )

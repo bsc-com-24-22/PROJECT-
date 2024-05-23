@@ -1,4 +1,6 @@
-import logo from "../logo.jpg";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import logo from "./1.png";
 
 export default function Header() {
     return (
@@ -13,11 +15,11 @@ export default function Header() {
 
                 <nav>
                     <ul className="flex space-x-4 text-black">
-                        <li><a href="#" className="hover:text-red-900">Home</a></li>
-                        <li><a href="#" className="hover:text-red-900">Services</a></li>
-                        <li><a href="#" className="hover:text-red-900">Track</a></li>
-                        <li><a href="#" className="hover:text-red-900">About</a></li>
-                        <li><a href="#" className="hover:text-red-900">Contact</a></li>
+                        <li><NavLink to="/" href="#" className="hover:text-red-900">Home</NavLink></li>
+                        <li><NavLink to="/Services" className="hover:text-red-900">Services</NavLink></li>
+                        <li><NavLink to="/Tracking" className="hover:text-red-900">Tracking</NavLink></li>
+                        <li><NavLink to="/AboutUs" className="hover:text-red-900">About</NavLink></li>
+                        <li><NavLink to="/ContactAndLocation" className="hover:text-red-900">Contact</NavLink></li>
                     </ul>
                 </nav>
             </div>

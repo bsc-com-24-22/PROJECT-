@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBox from "..Tracking/SearchBox";
+import SearchBox from "../Tracking/SearchBox";
 import { FaArrowRight } from "react-icons/fa";
 
 
@@ -22,7 +22,7 @@ export default function TrackingDetails(){
 
       <div className="flex items-center justify-between mb-2">
           <h3 className="font-bold">Recent Activity</h3>
-          < div className=" flex flex-row justify-between mb-2 "> view all <FaArrowRight className="mx-1" /></div>
+          < div className=" flex flex-row justify-between mb-2 hover:scale-125 hover:text-red-950"> view all <FaArrowRight className="mx-1" /></div>
         </div>
         <div className="font-normal mb-4">
         Check status of recent and current order

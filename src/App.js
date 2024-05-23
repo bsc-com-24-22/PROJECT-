@@ -1,13 +1,14 @@
 import React from 'react';
 import "./index.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage/Components/HomePage/HomePage';
+import HomePage from './pages/HomePage/HomePage/HomePage/HomePage';
 import AboutUs from './pages/AboutUs/AboutUs';
-import Tracking from './Tracking/Tracking';
-import Tracking_Details from './Tracking/Tracking_Details';
-import SignUpPage from './pages/SignUpPage/components/SignUp';
+import Tracking from './pages/Tracking/Tracking';
+import Tracking_Details from './pages/Tracking/Tracking_Details';
+import SignUpPage from './pages/SignUpPage/component/SignUp';
 import ContactAndLocation from  "./pages/ContactAndLocation/ContactAndLocation";
 import SignInPage from './pages/Sign.In.LogInPage/SignIn'
+import Services from './pages/Services/Services'
  
 function App() {
   return (

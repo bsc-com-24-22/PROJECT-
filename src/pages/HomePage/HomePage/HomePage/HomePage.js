@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../Components/Footer";
-import icon from "./icon.jpg";
+
 export default function HomePage() {
 
   return (
@@ -18,9 +18,13 @@ export default function HomePage() {
         <div class="flex items-center justify-center mb-6">
           <h4 class="text-lg font-bold">FOLLOW SIMPLE STEPS</h4>
         </div>
-        <div className=" font-bold "> Fill the Form
+        <div>
+                
+          <div className=" font-bold "> Fill the Form
+        
         <p className="font-normal " >We spacialize in the rapid,cost-effective and realiable<br></br>
-        delivery of couriers across different locations.</p>
+        delivery of couriers across different locations.</p></div>
+        
 
         <p className="text-white">EmptySpace</p>
 
@@ -35,25 +39,27 @@ export default function HomePage() {
          <p className="font-normal ">Our realible logistics network enables the<br></br>
          fastest and most dependable door-to-<br></br>door transit service in the industry.</p>
          </h2>
+         </div>
+         <p className="text-white">EmptySpace</p>
+         <h3 className=" font-bold"> GET THE <span className="text-yellow-700"> FASTEST </span> </h3>
+         <h4 className=" font-bold">DELIVERY PRODUCT </h4>
+         < p className="text-white">EmptySpace</p>
 
-
-        </div>
-        <p className="text-white">EmptySpace</p>
-        <h4>GET THE FASTEST<br></br>PRODUCT DELIVERY  </h4>
-
-        <footer className="footer bg-amber-900 text-white py-4 w-full fixed bottom-0 rounded-tl-[15px] rounded-tr-[15px]">
+         <div> <footer className="footer bg-amber-900 text-white py-4 w-full fixed bottom-0 rounded-tl-[15px] rounded-tr-[15px]">
         <ul className="flex justify-center space-x-10 mb-5">
           <li className="hover:text-red-500 cursor-pointer">About Us</li>
           <li className="hover:text-red-500 cursor-pointer">Contact Us</li>
         </ul>
         <p className="text-center">Copyright © 2024. All rights reserved.</p>
-      </footer>
+      </footer></div>
+
+         </div>
+      
+
+        
 
 
-        </div>
-
-   
-   
-
+         
   )
-}
+  }
+

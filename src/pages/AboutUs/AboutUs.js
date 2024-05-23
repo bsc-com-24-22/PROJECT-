@@ -1,6 +1,6 @@
 import React from 'react';
-import img1 from '../../Assets/img1.jpg'
-import img2 from '../../Assets/img2.jpg'
+import img1 from '../../Assets/9.jpg'
+import img2 from '../../Assets/img1.jpg'
 import img3 from '../../Assets/img3.jpg'
 import img6 from '../../Assets/img6.jpg.png'
 import img8 from '../../Assets/img8.jpg'
@@ -34,15 +34,20 @@ export default function AboutusPage() {
             </div>
             <img src={img6} alt="" className='  w-z h-96 '></img>
         </div>
-      
-        <h2 className='flex justify-center font-bold sm:text-5xl'>MEET OUR TEAM</h2>
+        
+        <h2 className='flex justify-center font-bold sm:text-5xl '>MEET OUR TEAM<p className='text-white'>Emptyspace</p></h2>
+        <br />
+        <br />
+    
         <div className='flex gap-2 w-screen justify-evenly '>
             <img src={img1} alt=" "className='w-1/4'></img>
             <img src={img2} alt='' className='w-1/4'></img>
             <img src={img3} alt=""className=' w-1/4'></img>
-
+            
         </div>
+        <br />
         <h3 className='flex justify-center font-bold sm:text-5xl'>CUSTOMER FEEDBACK</h3>
+        <br />
         <div className='flex  justify-center mb-6'>
             <img src={img8} alt="" className=' w-1/4 z-0'></img>
         </div>

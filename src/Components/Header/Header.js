@@ -7,7 +7,7 @@ export default function Header () {
         <div >
         <header>
             <div className="flex justify-between size-15" >
-                <div className=' size-12'><img src={logo} alt="pali logo" className="w-12 h-12 justify-start ml-2"/></div>
+                <div className=' size-12'><img src={logo} alt="pali logo" className="w-12 h-12 justify-start ml-2"/> </div>
             
         
             </div>

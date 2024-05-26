@@ -13,7 +13,7 @@ const ContactInfo = () => {
             <ContactItem
                 icon={<FaClock className="text-custombrown text-3xl" />}
                 title="Our Timing"
-                detail={`Mon - Sun : 08:00 AM - 07:00 PM\nSat : Closed - Mpesa apemphele`}
+                detail={`Mon - Sun : 08:00 AM - 07:00 PM\nSat : Closed`}
             />
             <ContactItem
                 icon={<FaEnvelope className="text-custombrown text-3xl" />}

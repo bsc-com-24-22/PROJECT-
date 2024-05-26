@@ -3,6 +3,7 @@ import FormField from './FormField';
 import CheckBox from './CheckBox';
 import Button from './Button';
 import './SignUp.css';
+import { NavLink } from 'react-router-dom';
 
 const SignUp = () => {
   return (
@@ -18,7 +19,7 @@ const SignUp = () => {
           <Button text="Sign Up" />
         </form>
         <p>
-          I'm already an existing member! <a href="/signin">Sign In</a>
+          I'm already an existing member! <NavLink to="/Sign.In.LogInPage"><a href="/signin">Sign In</a></NavLink>
         </p>
       </div>
     </div>

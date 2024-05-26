@@ -2,10 +2,11 @@ import React from 'react';
 import { FaArrowRight, FaArrowRightLong } from 'react-icons/fa6';
 import { FaArrowRightLong as FaArrowRightLong6 } from 'react-icons/fa6';
 import 'tailwindcss/tailwind.css';
+import Footer from "../../Components/Footer/Footer";
 
 const PackageCard = () => {
   return (
-    <div className=" bg-custombrown p-4 rounded-lg shadow-lg mb-4">
+    <div className="bg-custombrown p-4 rounded-lg shadow-lg mb-4">
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-semibold text-black">Package Ya kamba</h2>
         <span className="bg-orange-500 text-black px-2 py-1 rounded-full text-xs">In Transit</span>
@@ -37,7 +38,7 @@ const Card = () => {
 
 const GadgetsCard = () => {
   return (
-    <div className=" bg-custombrown p-4 rounded-lg shadow-lg mb-4">
+    <div className="bg-custombrown p-4 rounded-lg shadow-lg mb-4">
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-lg font-semibold text-black">Gadgets</h2>
         <span className="bg-green-600 text-white px-2 py-1 rounded-full text-xs">Delivered</span>
@@ -53,7 +54,7 @@ const GadgetsCard = () => {
 
 const KitchenWareCard = () => {
   return (
-    <div className=" bg-custombrown p-4 rounded-lg shadow-lg mb-4">
+    <div className="bg-custombrown p-4 rounded-lg shadow-lg mb-4">
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-lg font-semibold text-black">Kitchenware</h2>
         <span className="bg-amber-600 text-white px-2 py-1 rounded-full text-xs">Delayed</span>
@@ -69,7 +70,7 @@ const KitchenWareCard = () => {
 
 const ChimangaCard = () => {
   return (
-    <div className=" bg-custombrown p-4 rounded-lg shadow-lg mb-8"> 
+    <div className="bg-custombrown p-4 rounded-lg shadow-lg mb-8"> 
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-lg font-semibold text-black">Chimanga</h2>
         <span className="bg-emerald-300 text-white px-2 py-1 rounded-full text-xs">Picked</span>
@@ -83,27 +84,17 @@ const ChimangaCard = () => {
   );
 };
 
-const Footer = () => {
-  return (
-    <footer className="footer bg-yellow-700 text-white py-4 w-full fixed bottom-0 rounded-tl-[15px] rounded-tr-[15px]">
-      <ul className="flex justify-center space-x-8 mb-4">
-        <li className="hover:text-red-500 cursor-pointer">About Us</li>
-        <li className="hover:text-red-500 cursor-pointer">Contact Us</li>
-      </ul>
-      <p className="text-center">Copyright © 2024. All rights reserved.</p>
-    </footer>
-  );
-};
-
 const CombinedCards = () => {
   return (
-    <div className="min-h-screen pb-16">
-      <div>
+    <div className="min-h-screen flex flex-col">
+      <div className="flex-grow">
         <PackageCard />
         <Card />
         <div className="flex flex-row items-center justify-between mb-2">
           <h3 className="font-bold">Recent Activity</h3>
-          < div className=" flex flex-row justify-between mb-2 "> view all <FaArrowRight className="mx-1" /></div>
+          <div className="flex flex-row justify-between mb-2">
+            view all <FaArrowRight className="mx-1" />
+          </div>
         </div>
         <div className="font-normal mb-4">
           Check the history of your previous interactions
@@ -112,11 +103,7 @@ const CombinedCards = () => {
         <KitchenWareCard />
         <ChimangaCard />
       </div>
-      <div>
-        <p className=' text-white'> emptyspace</p>
-        <p className=' text-white'> emptyspace</p>
-
-      </div>
+      <br/>
       <Footer />
     </div>
   );

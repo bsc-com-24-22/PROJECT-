@@ -5,8 +5,8 @@ import img3 from '../../Assets/img3.jpg'
 import img6 from '../../Assets/img6.jpg.png'
 import img8 from '../../Assets/img8.jpg'
 import Footer from './Footer';
-import NavBbar from '../../Components/navBbar';
-import Header from './Header'
+import NavBbar from "../AboutUs/navBbar"
+import Header from "../HomePage/Components/Header";
 
 
 
@@ -15,7 +15,7 @@ export default function AboutusPage() {
     return (
         <div className='className = "flex flex-col w-full'>
              <Header />
-             <NavBbar />
+             <NavBbar/>
              <div className='w-full flex flex-col gap-5 bg-black-950 max-h-fit pl-5'>
             <div className='flex'>
 

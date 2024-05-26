@@ -1,6 +1,6 @@
 import React from "react";
-import {NavLink} from 'react-router-dom'; 
 import Header from "../../Components/Header";
+import Footer from "../../../HomePage/HomePage/Footer";
 
 
 export default function HomePage() {
@@ -23,34 +23,28 @@ export default function HomePage() {
         <p className="font-normal " >We spacialize in the rapid,cost-effective and realiable<br></br>
         delivery of couriers across different locations.</p>
 
-        <p className="text-white">EmptySpace</p>
+        <br/>
 
          <h1 className=" font-bold">  We collect
          <p className="font-normal ">Priority depends on the urgency of the <br></br>
           Package and the type of goods, catering to <b></b>
           varying budgets</p>
          </h1>
-         <p className="text-white">EmptySpace</p>
+         <br/>
         
-         <h2 className=" font-bold"> Derivery
+         <h2 className=" font-bold text-black"> Derivery
          <p className="font-normal ">Our realible logistics network enables the<br></br>
          fastest and most dependable door-to-<br></br>door transit service in the industry.</p>
          </h2>
 
 
         </div>
-        <p className="text-white">EmptySpace</p>
-        <h4>GET THE FASTEST<br></br>PRODUCT DELIVERY  </h4>
-
-        <footer className="footer bg-amber-900 text-white py-4 w-full fixed bottom-0 rounded-tl-[15px] rounded-tr-[15px]">
-        <ul className="flex justify-center space-x-10 mb-5">
-          <li className="hover:text-red-500 cursor-pointer"><NavLink to="/AboutUs">About Us</NavLink></li>
-          <li className="hover:text-red-500 cursor-pointer"><NavLink to="/ContactAndLocation">Contact Us</NavLink></li>
-        </ul>
-        <p className="text-center">Copyright © 2024. All rights reserved.</p>
-      </footer>
-
-
+        <br/>
+        <h4>GET THE <span  className=" text-amber-600" >FASTEST</span><br></br>PRODUCT DELIVERY  </h4>
+        <br/>
+        <br/>
+        <br/>
+       <Footer/>
         </div>
 
    

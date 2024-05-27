@@ -51,7 +51,7 @@ const GadgetsCard = () => {
     </div>
   );
 };
-
+//hi
 const KitchenWareCard = () => {
   return (
     <div className="bg-custombrown p-4 rounded-lg shadow-lg mb-4">
